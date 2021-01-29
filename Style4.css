@@ -1,0 +1,51 @@
+h1 {
+  color: blue;
+  text-align:center;
+  font-size: 300%;
+}
+
+h2 {
+  color: orange;
+  text-align:left;
+  padding-left: 200px;
+  font-size: 250%;
+  text-decoration:underline;
+}
+
+
+p {
+  margin-left: 150px;
+   line-height: 1.6;
+  font-family: "Times New Roman";
+ 
+}
+
+Label{
+   text-align: right;
+}
+img{
+	float: right; 
+	margin-right:10px; 
+	margin-bottom: 5px;
+	padding: 10px;
+	height: 500px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  border: 3px solid #4CAF50;
+  padding: 5px;
+}
+
+
+
+label {
+margin-left: 150px;
+
+display: block;
+width: 150px;
+float: left;
+}
+

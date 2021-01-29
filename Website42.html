@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Papagali</title>
+	<title>External CSS</title>
+	<link href="Style4.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body>
+	<div id="header">
+           <h1 id="h1"> Papagalul Stacojiu</h1>
+	</div>
+
+	
+	   <h2 id="tittle"> Origine</h2>
+
+  		<label >Language:</label>
+  		<select onchange="MyFunc()" id="mySelect">
+  		<option  value="Romana" id="lang1">Romana</option>
+  		<option  value="English" id="lang2">English</option>
+  		<option  value="French" id="lang3">French</option>
+    		</select> 
+  		
+  		<div id="id_arbitrar" style="display:inline">
+    
+ 		 </div>
+	<div class="clearfix">
+		<img src="Papagal.jpg" alt="Poza papagal stacojiu" tittle="Papagal Stacojiu"/>
+	   <p id="paragraph1"> Papagalul Stacojiu (Ara macao) este unul dintre cei mai mari papagali care face parte din genul Macaw. Aceste pasari isi au aria de raspandire extinsa in aproape tot bazinul amazonian si America de Sud tropicala. Papagalii Ara stacojii sud-americani au aripile galbene cu varfurile verzi. Cei mai mari si mai frapanti ca si colorit papagali Ara stacojii pot fi regasiti in Nicaragua.In salbaticie, aceasta specie de papagali Ara populeaza padurile topicale situate la mica latitudine si terenurile impadurite. Isi construiesc cuiburile in scorburi, mai ales in cele ale arborilor mari si cu lemn moale. De regula, zboara in perechi sau in mici grupuri familiale, dar uneori pot fi zariti si in stoluri de pana la 25 de exemplare.Papagalul Macao stacojiu este intalnit in sudul Tamaulipas-ului, de-alungul coastei caraibiene, in Vera Cruz si Tobasco, in sudul regiunii Campeche, in Oaxaca si Chiapas (Mexic), in Belize, Guatemala, ajungand de-a lungul Anzilor, pana in Santa Cruz, in Bolivia si Brazilia.In partea nordica a ariei de raspandire (Vera Cruz si Oaxaca – Mexic),numarul exemplarelor de Ara Macao a scazut considerabil. In anumite localitati, in care existau, cu ani in urma, numerosi papagali stacojii,in prezent, sunt greu de gasit, iar in Tamaulipas apar doar ocazional.
+	   </p>
+	</div>
+
+	    <script>
+		function MyFunc(){
+  		var theDiv = document.getElementById("mySelect").value;
+  		document.getElementById("id_arbitrar").innerHTML = "You selected: " + theDiv;
+		Replace(theDiv);
+		}
+
+		</script>
+
+	  <script>
+		function Replace(lang){
+			
+		if(lang==document.getElementById("lang2").innerHTML)
+			{
+		document.getElementById("paragraph1").innerHTML = "Scarlet macaw (Ara macao) is one of the largest parrots in the Macaw genus. It's birds is a widespread area in almost all of the Amazon basin and tropical South America. South American macaw parrots have yellow wings with green tips. The largest and most striking as colorful Ara parrots can be found in Nicaragua. In the wild, this species of Ara parrots populates the topical forests and locates the low latitude and forested lands. They build their nests in hollows, especially in those of large trees and with soft wood. As a rule, they fly in pairs or in small family groups, but sometimes they can be seen in flocks of up to 25 examples. The Macao paracola stacojiu is found south of Tamaulipas, along the Caribbean coast, in Vera Cruz and Tobasco in the south of the Campeche region, in Oaxaca and Chiapas (Mexico), in Belize, Guatemala, reaching along the Andes, to Santa Cruz, Bolivia and Brazil. In the northern part of the spreading area (Vera Cruz and Oaxa a - Mexico) , the number of copies of Ara Macao has decreased considerably. In some localities, in the care there are, with years to come, numerous parrot stages, at present, they are difficult to find, and in Tamaulipas they only appear occasionally.";
+		document.getElementById("h1").innerHTML ="Scarlet macaw";
+		document.getElementById("tittle").innerHTML ="Origins";
+
+			}		
+
+		if(lang==document.getElementById("lang1").innerHTML)
+		{
+document.getElementById("paragraph1").innerHTML = "Papagalul Stacojiu (Ara macao) este unul dintre cei mai mari papagali care face parte din genul Macaw. Aceste pasari isi au aria de raspandire extinsa in aproape tot bazinul amazonian si America de Sud tropicala. Papagalii Ara stacojii sud-americani au aripile galbene cu varfurile verzi. Cei mai mari si mai frapanti ca si colorit papagali Ara stacojii pot fi regasiti in Nicaragua.In salbaticie, aceasta specie de papagali Ara populeaza padurile topicale situate la mica latitudine si terenurile impadurite. Isi construiesc cuiburile in scorburi, mai ales in cele ale arborilor mari si cu lemn moale. De regula, zboara in perechi sau in mici grupuri familiale, dar uneori pot fi zariti si in stoluri de pana la 25 de exemplare.Papagalul Macao stacojiu este intalnit in sudul Tamaulipas-ului, de-alungul coastei caraibiene, in Vera Cruz si Tobasco, in sudul regiunii Campeche, in Oaxaca si Chiapas (Mexic), in Belize, Guatemala, ajungand de-a lungul Anzilor, pana in Santa Cruz, in Bolivia si Brazilia.In partea nordica a ariei de raspandire (Vera Cruz si Oaxaca – Mexic),numarul exemplarelor de Ara Macao a scazut considerabil. In anumite localitati, in care existau, cu ani in urma, numerosi papagali stacojii,in prezent, sunt greu de gasit, iar in Tamaulipas apar doar ocazional.";
+		document.getElementById("h1").innerHTML ="Papagalul Stacojiu";
+		document.getElementById("tittle").innerHTML ="Origine";
+
+		}
+
+		if(lang==document.getElementById("lang3").innerHTML)
+		{document.getElementById("paragraph1").innerHTML = "L'Ara rouge (Ara macao) est l'un des plus gros perroquets du genre Macaw. Ses oiseaux sont une zone tres répandue dans presque tout le bassin amazonien et l’Amérique du Sud tropicale. Les perroquets ara d'Amérique du Sud ont des ailes jaunes avec des pointes vertes. Au Nicaragua, on trouve les perroquets Ara colorés les plus grands et les plus colorés: a l’état sauvage, cette espece de perroquets Ara peuplera les forets d’actualité et localisera les basses terres et les forets. Ils construisent leurs nids dans les creux, notamment ceux de grands arbres et de bois tendre. En regle générale, ils volent par paires ou par petits groupes familiaux, mais on peut parfois les voir en groupes de 25 personnes maximum.Le paracola stacojiu de Macao se trouve au sud de Tamaulipas, le long de la côte caraibe, a Vera Cruz et au sud de la région de Campeche, a Oaxaca et au Chiapas (Mexique), au Belize, au Guatemala, le long des Andes, a Santa Cruz, en Bolivie et au Brésil, au nord de la zone de propagation (Vera Cruz et Oaxaca - Mexique) , le nombre de copies d’Ara Macao a considérablement diminué. Dans certaines localités, dans les établissements de soins, il y a de nombreuses étapes de perroquet avec de nombreuses étapes a venir. A l'heure actuelle, elles sont difficiles a trouver et, a Tamaulipas, elles n'apparaissent qu'occasionnellement.";
+		document.getElementById("h1").innerHTML ="L'Ara rouge";
+		document.getElementById("tittle").innerHTML ="L'Origine";
+
+
+		}		
+		
+
+		}	
+
+	</script>
+	
+	
+    </body>
+</html>
