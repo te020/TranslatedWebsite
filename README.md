@@ -1,5 +1,5 @@
 # TranslatedWebsite
 
-<img src="TranslatedWeb.png" alt="Website in romanian"/>
+<img src="TranslatedWeb.PNG" alt="Website in romanian"/>
 # Some screenshots of the website created as a homework.
-<img src="TranslatedWebEn.png" alt="website in english"/>
+<img src="TranslatedWebEn.PNG" alt="website in english"/>
